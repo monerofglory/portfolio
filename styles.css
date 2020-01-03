@@ -1,0 +1,55 @@
+ /* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #3b3b3b;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #d3d3d3;
+  color: gray;
+}
+
+/* Main content */
+.main {
+  margin-top: 60px; /* Add a top margin to avoid content overlay */
+}
+
+table{
+    table-layout: fixed;
+}
+
+th{
+    word-wrap:break-word;
+	vertical-align:top;
+	padding:5px;
+	padding-top:20px;
+	/*font-weight:bold;*/
+}
+
+
+h1, h2, th, td {
+	  font-family: arial;
+}
+
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
